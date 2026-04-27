@@ -1,0 +1,113 @@
+body{
+    box-sizing: border-box;
+}
+.content1{
+    margin: 0;
+    display: flex;
+}
+.sidebar{
+    padding: 10px;
+    margin: 0;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: rgb(190, 68, 68);
+    ul{
+        margin: 0px;
+        padding: 0px;
+
+        li{
+            list-style: none;
+            margin-bottom: 10px;
+            a{
+                text-decoration: none;
+                color: #dddddd;
+            }
+        }
+    }
+}
+.cont{
+    flex: 1;
+    padding: 20px;
+    button{
+        padding: 8px;
+        border-radius: 4px;
+        background-color: azure;
+    }
+}
+.car{
+    table{
+        border: 1px black;
+    }
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid rgb(42, 42, 42);
+        /* box-shadow: 5px 5px 10px rgba(176, 176, 176, 0.711); */
+    }
+}
+.card1{
+    display: flex;    
+    justify-content: space-between;
+}
+.line{
+    /* border: 3px gray; */
+    border-bottom: 2px gray solid;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/* General Table Styling */
+.styled-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */    
+    font-family: Arial, sans-serif; /* Use a clean font */
+    font-size: 16px; /* Text size */
+    margin-top: 20px; /* Add spacing from the heading */
+    text-align: left; /* Align text to the left */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Header Styling */
+.styled-table thead {
+    background-color: #de4b4b; /* Green header background */
+    color: white; /* White text */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Table Borders */
+.styled-table th, .styled-table td {
+    border: 1px solid #dddddd; /* Light gray borders */
+    padding: 12px 15px; /* Add padding inside cells */
+}
+
+/* Row Hover Effect */
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1; /* Light gray background when hovering */
+}
+
+/* Zebra Stripe Rows */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+/* Heading Styling */
+.table h3 {
+    font-family: Arial, sans-serif;
+    color: #333; /* Darker gray color */
+    margin-bottom: 10px;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .styled-table {
+        font-size: 14px; /* Reduce font size on smaller screens */
+    }
+}

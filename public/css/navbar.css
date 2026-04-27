@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.r1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+r1, a {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 20px;
+}
